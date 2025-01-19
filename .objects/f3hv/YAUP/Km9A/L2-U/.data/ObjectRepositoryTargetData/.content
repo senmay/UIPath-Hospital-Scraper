@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CUMdNVxz6UCtnk8xNS_oww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpwdl.ezdrowie.gov.pl/RPM/SearchEx" CVScreenId="cb01b0ae-4180-4c01-9657-851d5a935729" CvElementArea="584, 896, 931, 39" CvType="InputBox" DesignTimeRectangle="591, 903, 12, 23" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl idx='3' tag='INPUT' type='search' /&gt;" Guid="b0f2bbcb-1fce-4a5f-8367-d0a6ea2b52f5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rejestr podmiotów wykonujących działalność medyczną - Wyszukiwanie Podmiotów Leczniczych' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cb01b0ae-4180-4c01-9657-851d5a935729" CvElementArea="584, 896, 931, 39" CvType="InputBox" DesignTimeRectangle="586, 898, 926, 28" ElementType="List" FuzzySelectorArgument="&lt;webctrl type='' class='select2-selection__rendered' tag='UL' aaname='' /&gt;" Guid="c41451d1-776b-4c66-8b9d-be776a1898c7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e5207442a68e1080079ffa68f2e2eb5b.png" xmlns="">0kTIyiSRMPEWsCWnxIYPZrw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

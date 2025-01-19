@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a2n0g1QuOU2C3RJ7eTMy8Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpwdl.ezdrowie.gov.pl/RPM/SearchEx" CVScreenId="6f7419e5-5a0c-4546-a20a-cffe78a829a0" CvTextArea="591, 506, 398, 17" CvTextArgument="0100 - samodzielny publiczny zakład opieki zdrowotnej" CvType="Text" DesignTimeRectangle="586, 497, 909, 35" DesignTimeScaleFactor="1" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='treeitem' tag='LI' type='' class='select2-results__option' aaname='0100 - samodzielny publiczny zakład opieki zdrowotnej' check:innerText='0100 - samodzielny publiczny zakład opieki zdrowotnej' /&gt;" Guid="125bf66f-d3f1-48e3-b42c-70eaa070b611" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rejestr podmiotów wykonujących działalność medyczną - Wyszukiwanie Podmiotów Leczniczych' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6cc8990e7d95e73dc7e06474be013eab.png" xmlns="">0cFrfMdxlGkmHKW7hjDs8CQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

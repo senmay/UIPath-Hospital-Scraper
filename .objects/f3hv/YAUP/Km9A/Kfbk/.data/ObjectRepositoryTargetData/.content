@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3LasaV5sWk2VOGX7nh1Rdw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpwdl.ezdrowie.gov.pl/RPM/SearchEx" CVScreenId="af8a97be-4163-4ee0-9541-73f5698ee37e" CvElementArea="584, 829, 930, 39" CvType="InputBox" DesignTimeRectangle="586, 831, 926, 28" DesignTimeScaleFactor="1" ElementType="List" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;span&amp;gt;span&amp;gt;span&amp;gt;ul' idx='2' tag='UL' /&gt;" Guid="5e306c4e-f731-4cd7-bd11-fa7f9d292ea3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rejestr podmiotów wykonujących działalność medyczną - Wyszukiwanie Podmiotów Leczniczych' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-6" Y="-2" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="0c8c3462dff84a8eb000d975147ddeeb.png" xmlns="">0T9ekrFW_6E-GaT3HrLUuNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

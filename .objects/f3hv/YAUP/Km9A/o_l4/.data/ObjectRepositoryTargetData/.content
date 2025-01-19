@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jFKUNPGlo0upZ90qKoafwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpwdl.ezdrowie.gov.pl/RPM/SearchEx" CVScreenId="118d2553-7839-45eb-93ef-da39542868f3" CvElementArea="945, 942, 103, 33" CvTextArea="974, 952, 43, 16" CvTextArgument="Szukaj" CvType="Button" DesignTimeRectangle="946, 944, 100, 30" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn-primary  btn center' aaname='Szukaj' check:innerText='Szukaj' /&gt;" Guid="f6ebc2ca-103a-4ede-97b1-5d8d0f641a39" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rejestr podmiotów wykonujących działalność medyczną - Wyszukiwanie Podmiotów Leczniczych' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2e8c5dcc9745fcb3bef009b816ef37cf.png" xmlns="">0kZRSk3sCZ0e2gDnVNb8CQQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

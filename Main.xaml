@@ -1,0 +1,200 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="928,1361" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="ExtractDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Rejestr podmiotów wykonujących działal" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1307" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="6b08348b-ec71-4dca-87f0-fe8e419d690a" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="450,1067" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Inputbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6b08348b-ec71-4dca-87f0-fe8e419d690a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="rpwdl.ezdrowie.gov.pl/RPM/SearchEx" CVScreenId="cb01b0ae-4180-4c01-9657-851d5a935729" ContentHash="CUMdNVxz6UCtnk8xNS_oww" CvElementArea="584, 896, 931, 39" CvType="InputBox" DesignTimeRectangle="591, 903, 12, 23" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl idx='3' tag='INPUT' type='search' /&gt;" Guid="b0f2bbcb-1fce-4a5f-8367-d0a6ea2b52f5" InformativeScreenshot="e5207442a68e1080079ffa68f2e2eb5b.png" Reference="BM8SCPsKY0W7UU1lVdiIzA/L2-UgPcp7EyX84KS6RSuwQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rejestr podmiotów wykonujących działalność medyczną - Wyszukiwanie Podmiotów Leczniczych' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="cb01b0ae-4180-4c01-9657-851d5a935729" CvElementArea="584, 896, 931, 39" CvType="InputBox" DesignTimeRectangle="586, 898, 926, 28" ElementType="List" FuzzySelectorArgument="&lt;webctrl type='' class='select2-selection__rendered' tag='UL' aaname='' /&gt;" Guid="c41451d1-776b-4c66-8b9d-be776a1898c7" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '0100 - samodzielny publ…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6b08348b-ec71-4dca-87f0-fe8e419d690a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="rpwdl.ezdrowie.gov.pl/RPM/SearchEx" CVScreenId="6f7419e5-5a0c-4546-a20a-cffe78a829a0" ContentHash="a2n0g1QuOU2C3RJ7eTMy8Q" CvTextArea="591, 506, 398, 17" CvTextArgument="0100 - samodzielny publiczny zakład opieki zdrowotnej" CvType="Text" DesignTimeRectangle="586, 497, 909, 35" DesignTimeScaleFactor="1" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='treeitem' tag='LI' type='' class='select2-results__option' aaname='0100 - samodzielny publiczny zakład opieki zdrowotnej' check:innerText='0100 - samodzielny publiczny zakład opieki zdrowotnej' /&gt;" Guid="125bf66f-d3f1-48e3-b42c-70eaa070b611" InformativeScreenshot="6cc8990e7d95e73dc7e06474be013eab.png" Reference="BM8SCPsKY0W7UU1lVdiIzA/ZKCRVOmA7EW68IIyEb87fQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rejestr podmiotów wykonujących działalność medyczną - Wyszukiwanie Podmiotów Leczniczych' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Szukaj'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6b08348b-ec71-4dca-87f0-fe8e419d690a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="rpwdl.ezdrowie.gov.pl/RPM/SearchEx" CVScreenId="118d2553-7839-45eb-93ef-da39542868f3" ContentHash="jFKUNPGlo0upZ90qKoafwA" CvElementArea="945, 942, 103, 33" CvTextArea="974, 952, 43, 16" CvTextArgument="Szukaj" CvType="Button" DesignTimeRectangle="946, 944, 100, 30" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn-primary  btn center' aaname='Szukaj' check:innerText='Szukaj' /&gt;" Guid="f6ebc2ca-103a-4ede-97b1-5d8d0f641a39" InformativeScreenshot="2e8c5dcc9745fcb3bef009b816ef37cf.png" Reference="BM8SCPsKY0W7UU1lVdiIzA/o_l4ZWVXGkmdSRmiqpmVGw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rejestr podmiotów wykonujących działalność medyczną - Wyszukiwanie Podmiotów Leczniczych' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Numer rejestru' ReferenceIdx='0' Name='Numer rejestru'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Nazwa' ReferenceIdx='1' Name='Nazwa'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Adres' ReferenceIdx='2' Name='Adres'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Status' ReferenceIdx='3' Name='Status'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Akcje' ReferenceIdx='4' Name='Akcje'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Akcje Url' ReferenceIdx='5' Name='Akcje Url'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Numer rejestru' attr='fulltext' /&gt;&lt;column name='Nazwa' attr='fulltext' /&gt;&lt;column name='Adres' attr='fulltext' /&gt;&lt;column name='Status' attr='fulltext' /&gt;&lt;column name='Akcje' attr='fulltext' name2='Akcje Url' attr2='href' /&gt;&lt;/extract-table&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="6b08348b-ec71-4dca-87f0-fe8e419d690a" Version="V4">
+              <uix:NExtractData.NextLink>
+                <uix:TargetAnchorable BrowserURL="rpwdl.ezdrowie.gov.pl/RPM/RegistryList" CVScreenId="ccf43d42-7f63-4586-8bc5-fbe846e9b639" CvElementArea="1427, 952, 31, 28" CvType="ArrowButton" DesignTimeRectangle="1429, 955, 27, 24" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='»' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='»' tag='A' type='' class='' check:innerText='»' /&gt;" Guid="c3cebaeb-8262-4b46-92f5-50c962ea389e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rejestr podmiotów wykonujących działalność medyczną' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NExtractData.NextLink>
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable BrowserURL="https://rpwdl.ezdrowie.gov.pl/RPM/RegistryList" ContentHash="UpodcjmcLU2tOjJlbIqsLw" DesignTimeRectangle="570, 419, 958, 891" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="f8e87b5c-89ae-45f6-a267-2bcd3d0fa946" InformativeScreenshot="37cc2c21b54a2432302d6d94a6124b1f.png" Reference="BM8SCPsKY0W7UU1lVdiIzA/r4xJbYZulUarGqk1cQwprQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rejestr podmiotów wykonujących działalność medyczną' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="416,141" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Hospitals" WorkbookPath="J:\QGIS projekty\Projekt szpitale\scraper\Projekt_szpital.xlsx" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-1928, -8, 1936, 1056" BrowserType="Chrome" ContentHash="7ydsvBoln0O1tstxZbB9Ow" IconBase64="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" InformativeScreenshot="af162a24e17c0dd14ce1a38a7e9f9c03.jpg" Reference="BM8SCPsKY0W7UU1lVdiIzA/Km9Aw-JQ806JctXypkCTwg" Selector="&lt;html app='chrome.exe' title='Rejestr podmiotów wykonujących działalność medyczną - Wyszukiwanie Podmiotów Leczniczych' /&gt;" Url="https://rpwdl.ezdrowie.gov.pl/RPM/SearchEx" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "0100 - samodzielny publ…",
+  "Type": "Element",
+  "Id": "ZKCRVOmA7EW68IIyEb87fQ",
+  "Reference": "BM8SCPsKY0W7UU1lVdiIzA/ZKCRVOmA7EW68IIyEb87fQ",
+  "ParentRef": "BM8SCPsKY0W7UU1lVdiIzA/Km9Aw-JQ806JctXypkCTwg",
+  "Created": "2025-01-19T20:08:01.4053466Z",
+  "Updated": "2025-01-19T20:08:01.4053466Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

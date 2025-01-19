@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Rejestr podmiotów wykonujących działal",
+  "Type": "Screen",
+  "Id": "Km9Aw-JQ806JctXypkCTwg",
+  "Reference": "BM8SCPsKY0W7UU1lVdiIzA/Km9Aw-JQ806JctXypkCTwg",
+  "ParentRef": "BM8SCPsKY0W7UU1lVdiIzA/YAUPzshAB0u6mGBqChQZFg",
+  "Created": "2025-01-19T19:48:27.2544081Z",
+  "Updated": "2025-01-19T19:48:27.2544081Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

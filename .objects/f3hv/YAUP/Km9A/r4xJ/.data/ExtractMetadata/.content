@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ExtractMetadataObjectReference ContentHash="FmYqDUKbtUmxfCLGUx5Hsw" Value="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Numer rejestru' attr='fulltext' /&gt;&lt;column name='Nazwa' attr='fulltext' /&gt;&lt;column name='Adres' attr='fulltext' /&gt;&lt;column name='Status' attr='fulltext' /&gt;&lt;column name='Akcje' attr='fulltext' name2='Akcje Url' attr2='href' /&gt;&lt;/extract-table&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix" />
